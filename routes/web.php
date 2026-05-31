@@ -31,3 +31,4 @@ Route::middleware('auth')->group(function () {
 require __DIR__.'/auth.php';
 
 require base_path('app/Modules/Products/Routes/web.php');
+require base_path('app/Modules/Courses/Routes/web.php');
